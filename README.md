@@ -1,7 +1,7 @@
 # abScrollBar
 
  * abScrollBar v1.2 滚动条模拟插件
- * 更多详尽信息请看官网 http://ab.geshai.com/other-plus/abScrollBar/abScrollBar.html
+ * 更多详尽信息请看官网 http://ab.geshai.com/other-plus/abScrollBar/
  *  
  * 有疑难问题可选择QQ群① 158544200或QQ群② 790370978进行反馈
  * 
