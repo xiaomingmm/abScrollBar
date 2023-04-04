@@ -20,7 +20,7 @@
 2、引用abScrollBar插件
 	目录地址 
 	js/abScrollBar.source.js 开发版（不推荐直接使用）
-	js/jquery.abScrollBar-v1.0.min.js 迷你压缩版（推荐直接使用）
+	js/jquery.abScrollBar-v1.3.min.js 迷你压缩版（推荐直接使用）
 
 -------------------------------------------------------------------------------
 
