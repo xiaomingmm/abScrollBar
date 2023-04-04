@@ -7,8 +7,10 @@
 <meta name="keywords" content="格晒特效,格晒插件,abScrollBar,jQuery插件" />
 <meta name="description" content="格晒js特效插件abScrollBar.js是一款基于jQuery运行的滚动条开源特效插件，体积小巧使用简单的js模拟滚动条小插件，它可以通过鼠标中轴滑动页面内模拟滚动条，或鼠标拖动滚动条查看滚动框架里的内容，支持自定义滚动条样式。兼容IE6+ Safari Opera Firefox Chrome 等大部分浏览器。" />
 
+<link href="css/abScrollBar-v1.3.css" rel="stylesheet" type="text/css" />
+
 <script src="js/jquery.min.js"></script><!-- jquery.min.js必须存在 -->
-<script type="text/javascript" src="js/jquery.abScrollBar-v1.2.min.js"></script><!-- jquery.abScrollBar-v1.2.min.js必须存在 -->
+<script type="text/javascript" src="js/jquery.abScrollBar-v1.3.min.js"></script><!-- jquery.abScrollBar-v1.3.min.js必须存在 -->
 
 
 <style type="text/css">
@@ -24,7 +26,7 @@ a:hover { color:#fff; text-decoration:none; }
 <body>
 
 <!-- 头部开始 -->
-<div style="text-align:center;padding:80px 0 80px 0;"><div class="logo z"><h2 style="color:#ebf7fe;font-size:38px;line-height:50px;font-weight:bold;font-style:italic;"><a href="http://ab.geshai.com/other-plus/abScrollBar/abScrollBar.html" title="abScrollBar v1.2" target="_blank">abScrollBar</a></h2><p style="font-size:13px;font-style:italic;color:#ddf0fb;">页面内模拟滚动条 v1.2</p></div></div>
+<div style="text-align:center;padding:80px 0 80px 0;"><div class="logo z"><h2 style="color:#ebf7fe;font-size:38px;line-height:50px;font-weight:bold;font-style:italic;"><a href="http://ab.geshai.com/other-plus/abScrollBar/abScrollBar.html" title="abScrollBar v1.3" target="_blank">abScrollBar</a></h2><p style="font-size:13px;font-style:italic;color:#ddf0fb;">页面内模拟滚动条 v1.3</p></div></div>
 <!-- 头部结束 -->
 
 
@@ -221,7 +223,8 @@ $(document).ready(function () {
         height: 400, /* 滚动内容高度，此例子高度等于abScrollBar-box层的高度 */
         barWidth: 10, /* 默认6, 滚动条宽度 */
         isHideBar: false, /* 当鼠标离开容器区域，默认为 false 时显示滚动条，为true时隐藏滚动条 */
-        mousewheelStep: 30 /* 默认=30，鼠标轮滚步长 */
+        mousewheelStep: 30, /* 默认=30，鼠标轮滚步长 */
+        isButton: true /* 启用滚动条按钮 */
     });
 });
 </script>

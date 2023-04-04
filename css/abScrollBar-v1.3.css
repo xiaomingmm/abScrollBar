@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.ab-scroll-bar-arrow-up { width:0;height:0;line-height:0;position:absolute;border:4px dashed #cfcfcf; margin-left:-1px;top:0;left:20%;border-bottom-style:solid; border-top:0; border-left-color:transparent; border-right-color:transparent;cursor:pointer; }
+
+.ab-scroll-bar-arrow-down { width:0;height:0;line-height:0;position:absolute;border:4px dashed #cfcfcf; margin-left:-1px;bottom:0;left:20%;border-top-style:solid; border-bottom:0; border-left-color:transparent; border-right-color:transparent;cursor:pointer; }
+
+.ab-scroll-bar-arrow-left { width:0;height:0;line-height:0;position:absolute;border:4px dashed #cfcfcf; margin-bottom:1px;bottom:0;left:0; border-right-style:solid; border-left:0; border-top-color:transparent; border-bottom-color:transparent;cursor:pointer; }
+
+.ab-scroll-bar-arrow-right { width:0;height:0;line-height:0;position:absolute;border:4px dashed #cfcfcf; margin-bottom:1px;bottom:0;right:0;border-left-style:solid; border-right:0; border-bottom-color:transparent; border-top-color:transparent;cursor:pointer; }
