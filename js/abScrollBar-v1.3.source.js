@@ -571,13 +571,13 @@
 	/* 内容需要滚动的步伐 */
 	var _contentScrollStep = 0;
 	if (__fns__.isX()) {
-		_contentScrollStep = (_contentOverWidth / _barAllowWidth);
+		_contentScrollStep = (_contentOverWidth - (_isButton ? _optBarHeight * 2 : 0)) / _barAllowWidth;
 		/* 设置滚动条宽 */
 		_bar.width((_barWidth * 100) + "%");
 		/* 获取滚动条宽度 */
 		_barWidth = _bar.height();
 	} else {
-		_contentScrollStep = (_contentOverHeight / _barAllowHeight);
+		_contentScrollStep = (_contentOverHeight - (_isButton ? _optBarWidth * 2 : 0)) / _barAllowHeight;
 		/* 设置滚动条高 */
 		_bar.height((_barHeight * 100) + "%");
 		/* 获取滚动条高度 */
